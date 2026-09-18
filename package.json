@@ -1,0 +1,25 @@
+{
+  "name": "group_6_section_b",
+  "version": "1.0.0",
+  "description": "Midterm SIA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttsonic8/Group_6_Section_B.git"
+  },
+  "keywords": [
+    "SIA"
+  ],
+  "author": "Torres, Charles Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttsonic8/Group_6_Section_B/issues"
+  },
+  "homepage": "https://github.com/ttsonic8/Group_6_Section_B#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
