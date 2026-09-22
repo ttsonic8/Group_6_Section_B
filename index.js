@@ -2,12 +2,8 @@ const express = require('express')
 
 const app = express()
 
-express.json()
+app.use(express.json())
 
-let data = [{
-    id: 1,
-    name: "Dog",
-}]
 
 app.use('/', require('./routes/users.routes'))
 app.use('/api/users', require('./routes/users.routes'))
